@@ -22,3 +22,26 @@ In this lesson, we’ll learn how to:
 - Define event handlers.
 - Use state setter callback functions.
 - Use state with arrays and objects.
+
+
+### Instructions
+Checkpoint 1 Passed
+
+1. Open the AppFunction.js file. We will learn how this code works in the next few exercises. Don’t worry about the details of what is going on here just yet, but take a few moments to read through the definition of this function component and develop some theories about what this code may be doing.
+
+Press “Run” to see how the code behaves!
+
+Default exports can be assigned to any local variable name when they are imported. Switching these two lines of code assigns a different value to the same variable name of App.
+
+In index.js, replace these lines:
+```
+import App from "./Container/AppClass";
+// import App from "./Container/AppFunction";
+```
+with these lines:
+```
+// import App from "./Container/AppClass";
+import App from "./Container/AppFunction";
+```
+If you want a review on this, take a look at the lesson on [JavaScript modules](https://www.codecademy.com/enrolled/courses/introduction-to-javascript).
+
